@@ -4,7 +4,7 @@ Based on https://protips.readthedocs.io/link-roles.html
 """
 import urllib.parse
 
-from docutils import nodes
+from docutils import nodes # type: ignore
 
 
 def setup(app):
